@@ -29,7 +29,6 @@ animate:{
 
 const AnimatedText = ({text,className=""}) => {
   return (
-      // eslint-disable-next-line react/prop-types
     <div className='w-full mx-auto py-2 flex item-center justify-center text-center overflow-hidden sm:py-0'>
         <motion.h1 className={`inline-block w-full text-dark font-bold capitalize text-8xl dark:text-light ${className}`}
         variants={quote}
@@ -48,6 +47,8 @@ const AnimatedText = ({text,className=""}) => {
         </motion.h1>
     </div>
   )
-}
+};
+
+
 
 export default AnimatedText
