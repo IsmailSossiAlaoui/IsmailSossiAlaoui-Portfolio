@@ -8,7 +8,6 @@ import Positivus from '../../public/images/projects/Positivus.png'
 import OpenAI from '../../public/images/projects/OpenAI.png'
 import Portfolio_webflow from '../../public/images/projects/Portfolio_webflow.png'
 import RL_Landing_page from '../../public/images/projects/RL_Landing_Page.png'
-
 import Project from '@/components/Project'
 import TransitionEffect from '@/components/TransitionEffect'
 
