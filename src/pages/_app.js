@@ -5,6 +5,9 @@ import { AnimatePresence } from 'framer-motion'
 import { Montserrat } from 'next/font/google'
 import Head from 'next/head'
 import { useRouter } from 'next/router'
+import {Analytics} from '@vercel/analytics/react'
+
+
 
   
 const montserrat = Montserrat ({
@@ -24,6 +27,7 @@ export default function App({ Component, pageProps }) {
   <NavBar></NavBar>
   <AnimatePresence mode='wait'>
   <Component ley={router.asPath} {...pageProps} />
+  <Analytics />
   </AnimatePresence>
   <Footer></Footer>
   </main>
