@@ -61,27 +61,27 @@ const NavBar = () => {
         </nav>
        
         <nav className='flex items-center justify-center flex-wrap gap-8'>
-            <motion.a href="https://twitter.com" target = {"_blank"}
+            <motion.a href="https://twitter.com/BLUESEKAI273658" target = {"_blank"}
             whileHover={{y:-2}}
             whileTap={{scale:0.9}}
             className='w-6 '
             >
               <TwitterIcon />
             </motion.a>
-            <motion.a href="https://github.com" target = {"_blank"}
+            <motion.a href="https://github.com/IsmailSossiAlaoui" target = {"_blank"}
               whileHover={{y:-2}}
               whileTap={{scale:0.9}}
               className='w-6 '
               >
               <GithubIcon />
             </motion.a>
-            <motion.a href="https://Pinterest.com" target = {"_blank"}
+            <motion.a href="https://www.pinterest.com/ismailsossialaoui/" target = {"_blank"}
               whileHover={{y:-2}}
               className='w-6 '
               whileTap={{scale:0.9}}>
               <PinterestIcon />
             </motion.a>
-            <motion.a href="https://LinkedIn.com" target = {"_blank"}
+            <motion.a href="https://www.linkedin.com/in/ismail-sossi-alaoui/" target = {"_blank"}
               whileHover={{y:-2}}
               whileTap={{scale:0.9}}
               className='w-6 '>
