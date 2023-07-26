@@ -4,10 +4,10 @@ import Image from 'next/image'
 import { ArrowIcon } from '@/components/icons'
 
 const Project = ({imageSrc, title , description, className,linkto,imageH}) => {
-   const isMobile = window.innerWidth < 768
+
   return (
     
-  <motion.a href= {`${linkto}`} target='_blank' whileHover={isMobile && {filter:"brightness(1)",
+  <motion.a href= {`${linkto}`} target='_blank' whileHover={{filter:"brightness(1)",
         scale:1.1}}   initial ={{opacity:0}} whileInView={{opacity:1}} 
         className={`brightness-75 flex flex-col gap-7 h-fit-content ${className}`}> 
           <div  className= {`overflow-hidden relative ${imageH}`}>
