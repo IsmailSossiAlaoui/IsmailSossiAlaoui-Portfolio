@@ -2,14 +2,12 @@ import React from 'react'
 import { motion } from 'framer-motion'
 import Image from 'next/image'
 import { ArrowIcon } from '@/components/icons'
-
 const Project = ({imageSrc, title , description, className,linkto,imageH}) => {
 
   return (
-    
-  <motion.a href= {`${linkto}`} target='_blank' whileHover={{filter:"brightness(1)",
-        scale:1.1}}   initial ={{opacity:0}} whileInView={{opacity:1}} 
-        className={`brightness-75 flex flex-col gap-7 h-fit-content ${className}`}> 
+   
+  <motion.a id='myProject' href= {`${linkto}`} target='_blank' initial ={{opacity:0}} whileInView={{opacity:1}} 
+        className={`brightness-75 flex flex-col gap-7 h-fit-content ${className} md:h-[500px] `}> 
           <div  className= {`overflow-hidden relative ${imageH}`}>
           <Image src={imageSrc}  alt={title} className='object-cover' priority 
    /> 
@@ -19,7 +17,7 @@ const Project = ({imageSrc, title , description, className,linkto,imageH}) => {
               <p className='font-medium dark:text-light'>{description}</p>
           </div>
           </motion.a>
-  
+ 
     )
   }
 
