@@ -6,9 +6,12 @@
   }
 
   @media (min-width: 1023px){
+  #myProject {
+    transition: filter 0.1s ease-in-out, transform 0.1s ease-in-out; 
+
+  }
   #myProject:hover {
     filter: brightness(0.9); 
     transform: scale(1.05); 
-    transition: filter 0.1s ease-in-out, transform 0.1s ease-in-out; 
 
   }}
