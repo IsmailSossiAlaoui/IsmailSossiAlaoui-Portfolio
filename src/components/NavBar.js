@@ -92,8 +92,8 @@ const NavBar = () => {
 
       { isOpen ?
             <motion.div
-             initial={{scale:0, opacity:0, x: "-50%", y:"-50%"}}
-             animate={{scale:1, opacity:1}}
+            initial={{scale:0, opacity:0, x: "-50%", y:"-50%"}}
+            animate={{scale:1, opacity:1}}
 
             className='min-w-[70vw] flex flex-col justify-between items-center fixed top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2  z-30  bg-dark/75 dark:bg-light/75 dark:text-dark rounded-lg backdrop-blur-md p-20 gap-6'>
             <nav className='flex  flex-col justify-between gap-8 flex-wrap items-center '>
