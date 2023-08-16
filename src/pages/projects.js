@@ -25,7 +25,7 @@ const Projects = () => {
     <Layout>
     <AnimatedText text="Projects" className='mb-[167px]' />
     <div className='grid w-full grid-cols-12 gap-y-[171px] md:gap-y-[100px]'>
-    <Project title='Amazon clone' description="This is an Amazon clone ,I built this project using NextJs, NextAuth, TailwindCss, and NextAuth "  imageSrc={amazon_clone} className={"col-span-6 md:col-span-12 "} imageH={'h-[425px] xl:h-[300px] lg:h-[250px] md:h-auto'} linkto={`https://amazon-clone-ismail.vercel.app/`}/>
+    <Project title='Amazon clone' description="This is an Amazon clone ,I built this project using NextJs, NextAuth, TailwindCss, Redux toolkit for state management, and stripe to process payments"  imageSrc={amazon_clone} className={"col-span-6 md:col-span-12 "} imageH={'h-[425px] xl:h-[300px] lg:h-[250px] md:h-auto'} linkto={`https://amazon-clone-ismail.vercel.app/`}/>
     <Project title='Positivus Landing Page' description="a web design for a landing page of company specializing in digital marketing"  imageSrc={Positivus} className={"col-start-9 col-span-4 md:col-span-12 md:col-start-1"} imageH={"h-[300px] xl:h-[220px] lg:h-[190px] md:h-auto"} linkto={'https://www.figma.com/file/MzTo9bnyR5DyGl3zFrnXdI/Untitled?type=design&node-id=0%3A1&mode=design&t=7LGqDVnUDnhZqRVq-1'} />
 
     <Project title='RL Landing Page' description="A web design for a landing page for a Real estate agency"  imageSrc={RL_Landing_page} className={" col-span-4 md:col-span-12 "} imageH={'h-[300px] xl:h-[220px] lg:h-[190px] md:h-auto'} linkto={"https://www.figma.com/file/LTJE8Ja5216nQu64HwOGf3/Real-Estate-Landing-Page?type=design&node-id=1%3A22&mode=design&t=UPvcqnjyacrzQymJ-1"}/>
