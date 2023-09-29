@@ -43,7 +43,7 @@ const Projects = () => {
     <Project title='Positivus landing page'  description="a web design for a landing page of company specializing in digital marketing"  imageSrc={Positivus} className={"col-span-6 xl:col-span-12 xl:h-auto "}  linkto={'https://www.figma.com/file/MzTo9bnyR5DyGl3zFrnXdI/Untitled?type=design&node-id=0%3A1&mode=design&t=7LGqDVnUDnhZqRVq-1'}  imageH={"max-h-[390px]"}/>
 
 
-    <Project title='Portfolio Webflow  ' description="This is my old Portfolio I designed and developed on Webflow "  imageSrc={Portfolio_webflow} className={"col-span-6 xl:col-span-12 xl:col-start-1 "} linkto={"https://ismailsa.webflow.io/"} imageH={"max-h-[390px]"} />
+    <Project title='Portfolio Webflow  ' description="This is my old Portfolio I designed and developed on Webflow "  imageSrc={Portfolio_webflow} className={"col-span-6 xl:col-span-12 xl:col-start-1 "} linkto={"https://ismailsossi.webflow.io/"} imageH={"max-h-[390px]"} />
 
 
     </div>
