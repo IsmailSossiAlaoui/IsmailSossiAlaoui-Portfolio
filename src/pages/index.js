@@ -34,7 +34,7 @@ export default function Home() {
   ' alt ="two sides of the brain"></Image>
         </div>
         <div className='w-1/2 flex flex-col items-start self-center gap-10 lg:w-full'>
-          <AnimatedText text="Upgrade Your digital Presence With Beautiful Design And code" className='!text-6xl text-left xl:!text-5xl lg:!text-center lg:!text-6xl md:!text-5xl sm:!text-3xl'/>
+          <AnimatedText text="Upgrade Your digital Presence With Beautiful Design And code" className='!text-6xl text-left xl:!text-5xl lg:!text-center lg:!text-6xl md:!text-5xl sm:!text-3xl py-1'/>
           <p className="text-xl my-4 font-medium lg:text-center" >
           As a skilled ux/ui designer, front-end developer and markter, I am dedicated to turning ideas into innovative effective web applications. 
           Explore my latest projects, showcasing my expertise in React.js, ux/ui design, and web development.
