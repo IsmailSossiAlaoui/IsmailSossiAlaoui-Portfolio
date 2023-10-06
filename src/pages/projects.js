@@ -5,13 +5,13 @@ import Head from 'next/head'
 import pandoratax from '../../public/images/projects/pandoratax.png'
 import Positivus from '../../public/images/projects/Positivus.png'
 import OpenAi from '../../public/images/projects/OpenAi.png'
+import threads_clone from '../../public/images/projects/threads_clone.png'
+
 import amazon_clone from '../../public/images/projects/amazon_clone.png'
 import Portfolio_webflow from '../../public/images/projects/Portfolio_webflow.png'
-import RL_Landing_page from '../../public/images/projects/RL_Landing_Page.png'
 import sossi from '../../public/images/projects/sossi.png'
 import Project from '@/components/Project'
 import TransitionEffect from '@/components/TransitionEffect'
-
 
 
 const Projects = () => {
@@ -34,7 +34,7 @@ const Projects = () => {
 
    
 
-    <Project title='SOSSI E-Commerce landing page' description="this is a landing page design for an e-commerce store specializing in selling clothes"  imageSrc={sossi} className={" col-span-6 xl:col-span-12 "} linkto={"https://www.figma.com/proto/yUXOqEbJWNHK11BRfaPkBO/Untitled?page-id=0%3A1&type=design&node-id=1-2&viewport=982%2C-1436%2C0.54&t=QmfG1paE2ykLx3cS-1&scaling=min-zoom"} imageH={"max-h-[390px]"}/>
+    <Project title='Threads clone' description="This is a threads clone, a social media app I created using Typescript, React , NextJs, MongoDB"  imageSrc={threads_clone} className={" col-span-6 xl:col-span-12 "} linkto={"https://threads-app-ismail.vercel.app/"} imageH={"max-h-[390px]"}/>
 
 
     <Project title='Gpt3' description="This is a landing page I built using React you can view it deployed on github Pages"  imageSrc={OpenAi} className={" col-span-6 xl:col-span-12 xl:col-start-1 "}  linkto={"https://ismailsossialaoui.github.io/isaai/"}  imageH={"max-h-[390px]"}/>
